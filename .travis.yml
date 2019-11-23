@@ -4,5 +4,4 @@ lein: lein
 script: lein do clean, test, uberjar
 
 jdk:
-  - oraclejdk8
   - openjdk8
