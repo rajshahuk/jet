@@ -36,15 +36,10 @@ The API is still subject to changes.
 
 ## Installation
 
-jet is [available on Clojars](https://clojars.org/cc.qbits/jet).
+[![Clojars Project](https://img.shields.io/clojars/v/com.twelvenines/jet.svg)](https://clojars.org/com.twelvenines/jet)
 
-Add this to your dependencies:
 
-```clojure
-[cc.qbits/jet "0.7.11"]
-```
-
-Jetty 9.3+ requires Java 8, you must either make sure you have it on
+Jetty 9.4+ requires Java 8, you must either make sure you have it on
 your system or you can exclude the jetty version brought in by Jet and
 use a previous one (at your own risk).
 
