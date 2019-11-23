@@ -1,5 +1,5 @@
 (def jetty-version "9.4.24.v20191120")
-(defproject com.twelvenines/jet "0.0.1"
+(defproject com.twelvenines/jet "0.0.2"
   :description "Jetty9 ring server adapter with WebSocket support"
   :url "https://github.com/rajshahuk/jet"
   :license {:name "Eclipse Public License"
@@ -34,7 +34,7 @@
                                    [org.slf4j/slf4j-log4j12 "1.7.29"]]}}
   :jar-exclusions [#"log4j.properties"]
   :aliases {"all" ["with-profile" "dev:dev,1.5:dev,1.6:dev,1.7:dev,master"]}
-  :codox {:src-dir-uri "https://github.com/mpenet/jet/blob/master/"
+  :codox {:src-dir-uri "https://github.com/rajshahuk/jet/blob/master/"
           :src-linenum-anchor-prefix "L"
           :output-dir "doc"
           :defaults {:doc/format :markdown}}
