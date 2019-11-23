@@ -26,9 +26,9 @@
                                        :snapshots true
                                        :releases {:checksum :fail :update :always}}}
   :profiles {:master {:dependencies [[org.clojure/clojure "1.9.0-master-SNAPSHOT"]]}
-             :dev  {:dependencies [[ring/ring-core "1.7.1"
+             :dev  {:dependencies [[ring/ring-core "1.8.0"
                                     :exclusions [javax.servlet/servlet-api]]
-                                   [ring/ring-servlet "1.7.1"
+                                   [ring/ring-servlet "1.8.0"
                                     :exclusions [javax.servlet/servlet-api]]
                                    [codox "0.10.7"]
                                    [org.slf4j/slf4j-log4j12 "1.7.29"]]}}
