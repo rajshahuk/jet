@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.2
+
+* updated to latest version of jetty v9.4.24.v20191120
+
+## 0.0.1
+
+* updated all out of date dependencies
+
+### Forked from main repo here
+
 ## 0.7.10
 
 * return ByteBuffer instance in WS Binary instead of our own record type wrapper
