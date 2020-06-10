@@ -1,11 +1,11 @@
-(def jetty-version "9.4.27.v20200227")
+(def jetty-version "9.4.29.v20200521")
 (defproject com.twelvenines/jet "0.0.3"
   :description "Jetty9 ring server adapter with WebSocket support"
   :url "https://github.com/rajshahuk/jet"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/core.async "1.0.567"]
+                 [org.clojure/core.async "1.2.603"]
                  [org.eclipse.jetty/jetty-server ~jetty-version]
                  [org.eclipse.jetty.http2/http2-server ~jetty-version]
                  [org.eclipse.jetty.websocket/websocket-server ~jetty-version]
@@ -23,9 +23,9 @@
                                        :snapshots true
                                        :releases {:checksum :fail :update :always}}}
   :profiles {:master {:dependencies [[org.clojure/clojure "1.10.1"]]}
-             :dev  {:dependencies [[ring/ring-core "1.8.0"
+             :dev  {:dependencies [[ring/ring-core "1.8.1"
                                     :exclusions [javax.servlet/servlet-api]]
-                                   [ring/ring-servlet "1.8.0"
+                                   [ring/ring-servlet "1.8.1"
                                     :exclusions [javax.servlet/servlet-api]]
                                    [codox "0.10.7"]
                                    [org.slf4j/slf4j-log4j12 "1.7.30"]]}}
