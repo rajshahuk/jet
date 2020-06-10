@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.3
+## 0.0.4
 
 * upgrade jetty v9.4.29.v20200521
 * upgrade ring to v1.8.1
