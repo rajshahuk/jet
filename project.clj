@@ -1,5 +1,5 @@
-(def jetty-version "9.4.29.v20200521")
-(defproject com.twelvenines/jet "0.0.3"
+(def jetty-version "9.4.30.v20200611")
+(defproject com.twelvenines/jet "0.0.5"
   :description "Jetty9 ring server adapter with WebSocket support"
   :url "https://github.com/rajshahuk/jet"
   :license {:name "Eclipse Public License"
